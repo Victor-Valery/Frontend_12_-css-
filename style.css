@@ -1,0 +1,13 @@
+/* Combinators
+element selector p {}
+id selector #
+class selector .
+universsal *
+grouping selector p, h1, h2 {}
+element selector p.hello {}
+
+
+div p span 
+
+
+*/
