@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex container properties*/
+
+.flex-container{
+    border: 6px solid green;
+    display: flex;  /* tüm flex özelliklerini kullanmak icin display yazilmali*/
+    height: 500px;
+    /* display: inline-flex; */
+    /* ***************** */
+    /*flex-direction*/
+
+    /* flex-direction: row; /* default */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+   
+    /* ***************** */
+
+    /* flex-wrap */
+
+    /* flex-wrap: nowrap; *//* default */
+    /* flex-wrap: wrap; */
+
+/* ***************** */
+    /* flex-flow shorthand - flexdirection flexwrap*/
+    /* flex-flow: row nowrap;   */ /*default*/
+    /* flex-flow: column nowrap; */
+
+/* ***************** */
+
+/* justify-content: flex-start default */
+
+/* justify-content: flex-start; */
+/* justify-content: flex-end; */
+/* justify-content: center; */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+/* justify-content: space-evenly; */
+
+/* ***************** */
+
+/* align-items: stretch;  default*/
+
+/* align-items: flex-start; */
+/* align-items: flex-end; */
+/* align-items: center; */
+/* align-items: baseline; */
+
+
+
+}
+
+.items{
+    background-color: indianred;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    width: 100px;
+}

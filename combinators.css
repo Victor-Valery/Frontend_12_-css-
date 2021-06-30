@@ -1,0 +1,36 @@
+/* Combinators
+element selector p {}
+id selector #
+class selector .
+universsal *
+grouping selector p, h1, h2 {}
+element selector p.hello {}
+
+
+div p span 
+
+
+*/
+
+/* descendant selector */
+/* div p {
+    background-color: royalblue;
+    color: white;
+} */
+
+/* child selector */
+/* div > p {
+    background-color: yellowgreen;
+} */
+
+/* Adj. sibling selector => div den sonra gelen ilk p'yi alir*/
+
+/* div + p {
+    background-color: tomato;
+} */
+
+/*  General sibling selector*  => div den sonra gelen tüm p'leri alir/
+
+/* div ~ p {
+    background-color: turquoise;
+} */
