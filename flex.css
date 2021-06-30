@@ -27,6 +27,7 @@
 
 /* ***************** */
     /* flex-flow shorthand - flexdirection flexwrap*/
+
     /* flex-flow: row nowrap;   */ /*default*/
     /* flex-flow: column nowrap; */
 
@@ -50,6 +51,19 @@
 /* align-items: center; */
 /* align-items: baseline; */
 
+/* ***************** */
+
+/* align-content: stretch;  default */
+
+/* align-content: flex-start; */
+/* align-content: flex-end; */
+/* align-content: center; */
+/* align-content: space-around; */
+/* align-content: space-between; */
+
+
+
+
 
 
 }
@@ -62,4 +76,26 @@
     margin: 3px;
     text-align: center;
     width: 100px;
+}
+
+.item1{
+    /* order in default degeri 0 */
+    /* order: 1; */
+    /* align-self: flex-start; */
+}
+.item2{
+    /* order: 2; */
+    /* flex-basis: 200px; */
+    /* align-self: flex-end; */
+}
+.item3{
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* align-self: center; */
+}
+.item4{
+    /* order: 4; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* align-self: baseline; */
 }
